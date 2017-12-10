@@ -15,6 +15,6 @@
 
       kill k "Window name or pid"
 
-  #### Download binary
+  #### Download 
 
 https://github.com/ddeeproton/kill/raw/master/bin/Release/kill.exe
