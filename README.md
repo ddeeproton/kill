@@ -23,4 +23,10 @@ https://github.com/ddeeproton/kill/raw/master/bin/Release/kill.exe
 
   #### Compilation
 
-      Compiled with "Code Blocks 16.01" ("GNU GCC Compiler")
+      "Code Blocks 16.01" ( www.codeblocks.org )
+	  
+	  http://sourceforge.net/projects/codeblocks/files/Binaries/16.01/Windows/codeblocks-16.01-setup.exe
+	  
+	  "GNU GCC Compiler" ( www.adacore.com/ )
+	  
+	  http://mirrors.cdn.adacore.com/art/591c97f0a3f5d779ee51082d

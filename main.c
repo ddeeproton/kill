@@ -30,7 +30,7 @@ BOOL CALLBACK EnumWindowsProc(HWND hWnd, LPARAM lParam)
                printf("%d",(int)pid);
                printf("\t");
                printf(strWindowTitle);
-               printf("\n ");
+               printf("\n");
            }
         }
    }
