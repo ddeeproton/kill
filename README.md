@@ -14,6 +14,8 @@
   #### Kill a process:
 
       kill k "Window name or pid"
+	  
+      kill kill "Window name or pid"
 
   #### Download 
 

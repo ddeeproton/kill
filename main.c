@@ -92,6 +92,7 @@ int main(int argc, char *argv[])
     printf("      kill d \"Window name or pid\"\n\n");
     printf("  Kill a process:\n\n");
     printf("      kill k \"Window name or pid\" \n\n");
+    printf("      kill kill \"Window name or pid\" \n\n");
   }
   //HWND wh = FindWindow(NULL, "Windows Command Processor");
   //PostMessage(wh, WM_CLOSE, 0, 0);
