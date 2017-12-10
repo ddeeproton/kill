@@ -21,6 +21,8 @@
 
 https://github.com/ddeeproton/kill/raw/master/bin/Release/kill.exe
 
+https://github.com/ddeeproton/kill/raw/master/bin/Release/libgcc_s_dw2-1.dll
+
   #### Compilation
 
   "Code Blocks 16.01" ( www.codeblocks.org )
