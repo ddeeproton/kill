@@ -25,7 +25,7 @@ BOOL CALLBACK EnumWindowsProc(HWND hWnd, LPARAM lParam)
        strtolower(searchProcess);
        strcpy(title, strWindowTitle);
        strtolower(title);
-       if(pid != getpid() && !strstr(title, " - kill ") && !strstr(title, "default ime") && !strstr(title, "msctfime ui")){
+       if(pid != getpid() && !strstr(title, " - kill") && !strstr(title, "default ime") && !strstr(title, "msctfime ui")){
            if(strlen(searchProcess) == 0 || strstr(title, searchProcess) || strstr(cpid, searchProcess)) {
                printf("%d",(int)pid);
                printf("\t");
@@ -52,7 +52,7 @@ BOOL CALLBACK CloseWindowsProc(HWND hWnd, LPARAM lParam)
        strtolower(searchProcess);
        strcpy(title, strWindowTitle);
        strtolower(title);
-       if(pid != getpid() && !strstr(title, " - kill ") && !strstr(title, "default ime") && !strstr(title, "msctfime ui")){
+       if(pid != getpid() && !strstr(title, " - kill") && !strstr(title, "default ime") && !strstr(title, "msctfime ui")){
            if(strlen(searchProcess) == 0 || strstr(title, searchProcess) || strcmp(cpid, searchProcess) == 0) {
              PostMessage(hWnd, WM_CLOSE, 0, 0);
            }
@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
     }
   }
   if(!isCommand) {
-    printf("\nkill - Version 0.0.2 ( github.com/ddeeproton )\n\n");
+    printf("\nkill - Version 0.0.3 ( github.com/ddeeproton )\n\n");
     printf("USAGE:\n\n");
     printf("  Display all processes:\n\n");
     printf("      kill d\n\n");
