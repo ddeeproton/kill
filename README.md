@@ -17,4 +17,4 @@
 
   #### Download binary
 
-      https://github.com/ddeeproton/kill/raw/master/bin/Release/kill.exe
+https://github.com/ddeeproton/kill/raw/master/bin/Release/kill.exe
