@@ -18,3 +18,7 @@
   #### Download 
 
 https://github.com/ddeeproton/kill/raw/master/bin/Release/kill.exe
+
+  #### Compilation
+
+      Compiled with "Code Blocks 16.01" ("GNU GCC Compiler")
