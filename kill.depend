@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512878059 source:c:\!share\programmation\c\closewindow\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
