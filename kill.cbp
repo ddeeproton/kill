@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/closeWindow" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/kill" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -30,6 +30,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-static" />
 		</Compiler>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
